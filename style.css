@@ -15,7 +15,59 @@ body{
     text-align: center;
 }
 
-header h1 {
+h1 {
     font-weight: normal;
-    font-size: 3.125rem
+    font-size: 3.125rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2.625rem;
+    margin: .75rem;
+
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 1.3125rem;
+    color: gray;
+    margin: .75rem;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    padding: 10px;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 1.3125rem;
+    color: gray;
+}
+
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_content a{
+    display: block;
+    margin-top: 2rem;
+    color: aquamarine;
+}
+
+video{
+    width: 24rem;
+    height: auto;
+    margin: .75rem;
+}
+
+.main_content img{
+    margin: .75rem;
 }
